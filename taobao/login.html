@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>淘宝登录</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<script type="text/javascript" src="js/require.js" data-main="js/style.js" defer async="true"></script>
+	</head>
+	<body>
+		<div id="top" class="wrapper">
+			<a href="index.html" title="淘宝网"><img src="../img/tblogo.png"/></a>
+			<div class="login-msg error" style="text-align: center;width: 879px; margin: 0 auto;">
+		        <p class="error" style="float: none;width: auto;">为确保您账户的安全及正常使用，依《网络安全法》相关要求，6月1日起会员账户需绑定手机。如您还未绑定，请尽快完成，感谢您的理解及支持！</p>
+   			</div>
+   			<a href="https://survey.taobao.com/survey/Q095thIx2" class="link">
+		        <i class="iconfont"></i> "登录页面"改进建议
+		    </a>
+		</div>
+		
+		<div id="page">
+			<div class="login-newbg"></div>
+			<div class="wrapper">
+				<div class="login-adlink">
+			        <a href="https://img.alicdn.com/tfs/TB1YQajilfH8KJjy1XbXXbLdXXa-2500-600.jpg"></a>
+			    </div>
+			    <div class="login">
+			    	<!--二维码登入-->
+					<div class='main'>
+						<div class="login-title">手机扫码，安全登录</div>
+						<div class="qrcode-main">
+				            <div class="qrcode-img" id="J_QRCodeImg" style="opacity: 1;">
+				            	<img src="//img.alicdn.com/tfscom/TB1kHgphNPI8KJjSspfwu3CFXXa.png">
+				            </div>
+				        </div>
+				        <div class="qrcode-help" style="display: none; opacity: 1;"></div>
+				        <div class="qrcode-desc">
+				            <i class="iconfont"></i>		 
+				            <p><font class="ft-gray">打开 </font><a href="https://www.taobao.com/m" target="_blank" class="h">手机淘宝</a> | <a href="https://www.tmall.com/wow/portal/act/app-download?mmstat=pc_login" target="_blank" class="h">手机天猫</a>
+				            <span class="ft-gray">扫一扫登录</span></p>   
+				        </div>
+				        <div class="login-links">
+					        <a href="#" class="login-pwd">密码登录</a>
+					        <a href="register.html" class="register" target="_blank">免费注册</a>
+					   </div>
+					</div>
+					<!--账号密码登录-->
+					<div class="static-form">
+						<div class="login-title">密码登录</div><span class="tip"></span>
+						<form id='form' method="post">
+							<div class="login-form">
+								<label for="TPL_username_1"> <i class="iconfont" title="会员名"></i></label>
+								<input type="text" name="username" id="username" class="login-text J_UserName" value="" maxlength="32" placeholder="会员名/邮箱/手机号">
+							</div>
+							<div class="login-form">
+								<label id="password-label" for="TPL_password_1"><i class="icon iconfont"></i></label>
+								<input type="text" name="upwd" id="upwd" class="login-text J_UserName" value="" maxlength="32">
+							</div>
+							<div class="login-form form-checkbox">
+							    <input type="checkbox" id="check"/><span>记住账户</span>
+							</div>
+							<input type="button" name="submit" value=" 登录  " id="btn"/>
+						</form>					
+						
+						<div class="other-icon">
+							<a href="http://weibo.com/login.php?entry=taobao&amp;goto=https%3A%2F%2Flogin.taobao.com%2Faso%2Ftvs%3Fdomain%3Dweibo%26sid%3D19e7ed7afca88789d57a5755a562daf9%26target%3D68747470733A2F2F7777772E74616F62616F2E636F6D2F&amp;goto2=https%3A%2F%2Fwww.taobao.com%2F" class="weibo-login">
+								<i class="iconfont"></i>微博登录
+							</a>
+							<a href="https://auth.alipay.com/login/index.htm?loginScene=7&amp;goto=https%3A%2F%2Fauth.alipay.com%2Flogin%2Ftaobao_trust_login.htm%3Ftarget%3Dhttps%253A%252F%252Flogin.taobao.com%252Fmember%252Falipay_sign_dispatcher.jhtml%253Ftg%253Dhttps%25253A%25252F%25252Fwww.taobao.com%25252F&amp;params=VFBMX3JlZGlyZWN0X3VybD1odHRwcyUzQSUyRiUyRnd3dy50YW9iYW8uY29tJTJG" class="alipay-login">
+								<i class="iconfont"></i>支付宝登录
+							</a>
+						</div>
+						
+						<div class="login-links">
+							<a href="https://passport.taobao.com/ac/password_find.htm?from_site=0&amp;login_id=&amp;lang=zh_CN&amp;app_name=&amp;tracelog=signin_main_pass" tabindex="6" class="forget-pwd" target="_blank">忘记密码</a>									
+							<a href="https://passport.taobao.com/ac/nick_find.htm?from_site=0&amp;lang=zh_CN&amp;app_name=tbTop" target="_blank">忘记会员名</a>							
+							<a href="register.html" class="register" target="_blank" tabindex="7">免费注册</a>								
+						</div>
+					</div>		
+				</div>
+			</div>			
+		</div>
+		
+		<div class="footer">
+				<img src="../img/footer.png" alt="底部栏" />	
+		</div>
+	</body>
+</html>

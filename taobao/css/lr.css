@@ -1,0 +1,347 @@
+.register_header {
+  width: 100%;
+  border: 1px solid #e1e1e1;
+  background: #fff; }
+
+.waiwei {
+  display: flex;
+  justify-content: space-between; }
+
+.logo {
+  padding: 15px 0; }
+
+.regist_header_right {
+  padding-top: 18px; }
+
+.regist_header_right .hi {
+  float: right;
+  font: 12px/16px "";
+  color: #999; }
+
+.blue_link {
+  color: #0066cc; }
+
+.blue_link:hover {
+  color: red; }
+
+.hd_menu {
+  display: block;
+  font: 12px/16px "";
+  color: #000;
+  text-indent: -2px; }
+
+.hd_menu:hover {
+  color: red; }
+
+.help_center {
+  position: relative;
+  z-index: 999;
+  float: right; }
+
+.hd_menu_list {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 93px;
+  padding-top: 21px;
+  border: 1px solid #ccc; }
+  .hd_menu_list li {
+    border-top: 1px dashed #ccc;
+    font: 12px/18px "";
+    text-align: center;
+    line-height: 18px; }
+    .hd_menu_list li a {
+      color: black; }
+  .hd_menu_list li:hover a {
+    color: red; }
+
+.help_ico {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("../../img/registerimg/regist.png") no-repeat -344px 0; }
+
+.helpa_ico {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background: url("../../img/registerimg/regist.png") no-repeat -347px -30px; }
+
+.login_content {
+  padding: 26px 0 0;
+  background: url(../../img/registerimg/bg.png) repeat-x;
+  background: #fcfcfc; }
+  .login_content h3 {
+    float: left;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+    line-height: 30px; }
+
+.regist_new {
+  float: right;
+  line-height: 30px; }
+
+.margin1 {
+  width: 980px;
+  margin: 0 auto; }
+
+.login_left {
+  margin-top: 45px;
+  width: 510px;
+  height: 315px;
+  float: left; }
+  .login_left img {
+    width: 510px;
+    height: 315px; }
+
+.login_right {
+  position: relative;
+  float: right;
+  width: 330px;
+  padding: 45px 35px 0 35px;
+  background-color: #fff; }
+
+.error_tips {
+  display: none;
+  position: absolute;
+  top: 9px;
+  left: 35px;
+  width: 282px;
+  height: 30px;
+  overflow: hidden;
+  padding: 0 10px 0 36px;
+  border: 1px solid #e5debc;
+  border-radius: 2px;
+  background: #fff7d1 url(../../img/registerimg/login.png) no-repeat -324px -150px;
+  line-height: 30px;
+  color: #999; }
+
+.login_form {
+  position: relative;
+  padding: 0 0 18px; }
+
+.login_top {
+  width: 330px;
+  margin: 0 auto; }
+
+.form_item {
+  position: relative;
+  z-index: 100;
+  height: 24px;
+  margin-bottom: 10px;
+  padding: 14px 18px;
+  border: 1px solid #dedede;
+  background: #FFF;
+  line-height: 24px; }
+  .form_item label {
+    display: inline-block;
+    width: 42px;
+    vertical-align: middle;
+    color: #666; }
+
+.user_ico {
+  background: url(../../img/registerimg/login.png) no-repeat -50px 4px; }
+
+.paswd_ico {
+  background: url(../../img/registerimg/login.png) no-repeat -150px 4px; }
+
+.login_username {
+  outline: none;
+  color: #ccc;
+  width: 230px;
+  height: 24px;
+  padding-left: 3px;
+  border: 0 none;
+  line-height: 24px;
+  vertical-align: middle;
+  font-family: "Microsoft YaHei";
+  font-size: 14px; }
+
+.login_password {
+  outline: none;
+  color: #ccc;
+  width: 230px;
+  height: 24px;
+  padding-left: 3px;
+  border: 0 none;
+  line-height: 24px;
+  vertical-align: middle;
+  font-family: "Microsoft YaHei";
+  font-size: 14px; }
+
+.auto_login {
+  position: relative;
+  margin: 10px 0;
+  line-height: 24px;
+  min-height: 24px; }
+
+.uncheck_agreement {
+  float: left;
+  padding-left: 18px;
+  background: url(../../img/registerimg/login.png) no-repeat -347px -265px;
+  color: #999; }
+
+.forget_pswd {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #999; }
+
+.login_btn {
+  width: 330px;
+  height: 52px;
+  border: 0 none;
+  border-radius: 3px;
+  background: #ff3c3c;
+  font-size: 16px;
+  color: #FFF;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px #ff7373;
+  font-family: "Microsoft YaHei";
+  line-height: 52px; }
+
+.register_header {
+  width: 100%;
+  border: 1px solid #e1e1e1;
+  background: #fff; }
+
+.register_main {
+  position: relative;
+  border-bottom: 1px solid #f4f4f4;
+  background: #fcfcfc;
+  padding: 30px 0 40px; }
+
+.rm {
+  position: absolute;
+  top: 27px;
+  left: 50%;
+  z-index: 120;
+  width: 1200px;
+  height: 500px;
+  margin-left: -600px; }
+
+.rm_1 {
+  background: url(../../img/registerimg/rm_1.png) no-repeat;
+  opacity: .2;
+  filter: alpha(opacity=20); }
+
+.rm_2 {
+  background: url(../../img/registerimg/rm_2.png) no-repeat;
+  opacity: .2;
+  filter: alpha(opacity=20); }
+
+.rm_3 {
+  background: url(../../img/registerimg/rm_3.png) no-repeat;
+  opacity: .2;
+  filter: alpha(opacity=20); }
+
+.rm_4 {
+  background: url(../../img/registerimg/rm_4.png) no-repeat;
+  opacity: .2;
+  filter: alpha(opacity=20); }
+
+.rm_5 {
+  background: url(../../img/registerimg/rm_5.png) no-repeat;
+  opacity: .2;
+  filter: alpha(opacity=20); }
+
+.register_content {
+  position: relative;
+  z-index: 150;
+  width: 330px;
+  margin: 0 auto; }
+
+.rc_title {
+  text-align: center; }
+
+.rc_form {
+  color: #333; }
+
+.rc_form li {
+  position: relative;
+  min-height: 52px;
+  margin-top: 10px;
+  margin-right: -200px; }
+
+.bdyz_same {
+  position: relative;
+  z-index: 2;
+  width: 328px;
+  height: 50px;
+  border: 1px solid #dedede;
+  border-radius: 3px; }
+
+.same_input {
+  position: relative;
+  z-index: 2;
+  width: 288px;
+  height: 20px;
+  margin-top: 15px;
+  padding: 0px 20px;
+  background: 0;
+  border: 0;
+  outline: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #666; }
+
+.same_span {
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  display: inline-block;
+  height: 50px;
+  font-size: 14px;
+  line-height: 50px;
+  color: #666; }
+
+.bdyz_agree {
+  height: 35px;
+  font-size: 12px;
+  line-height: 35px;
+  color: #666;
+  text-indent: 1em; }
+
+.bdyz_agree_btn {
+  display: block;
+  width: 330px;
+  height: 52px;
+  margin-top: 6px;
+  background-color: #ff3c3c;
+  font-size: 16px;
+  line-height: 52px;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px; }
+
+.regist_tip {
+  display: none;
+  position: absolute;
+  left: 348px;
+  font-size: 12px;
+  color: #fff;
+  top: 6px;
+  background: #D7D7D7;
+  width: 160px;
+  line-height: 20px;
+  color: #666; }
+
+.register_footer {
+  width: 980px;
+  margin: 20px auto 0;
+  text-align: center; }
+
+.register_footer a {
+  margin: 0 8px;
+  color: #333; }
+
+.register_footer a:hover {
+  color: red; }
+
+.register_footer p {
+  margin: 0 8px;
+  color: #333; }
+
+/*# sourceMappingURL=lr.css.map */
